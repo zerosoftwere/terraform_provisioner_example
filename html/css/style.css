@@ -1,0 +1,15 @@
+.banner {
+    background-image: url("/img/brave.jpeg");
+    background-size: cover;
+    background-position: center;
+    min-width: 40rem;
+    max-width: 60rem;
+    margin: auto;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+    color: #eee;
+    text-shadow: 1px 1px rgba(0, 0, 0, .2);
+}

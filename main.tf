@@ -29,8 +29,8 @@ data "aws_ami" "ubuntu" {
 }
 
 locals {
-  public_key = file(var.ssh_public_key_path)
-  private_key = file(var.ssh_private_key_path)
+  public_key = var.ssh_public_key
+  private_key = var.ssh_private_key
 }
 
 resource "aws_key_pair" "main" {
